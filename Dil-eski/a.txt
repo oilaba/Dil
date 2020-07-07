@@ -1,0 +1,7 @@
+Windows'ta kurulum yapmak için şu komutu çalıştırabilirsiniz:
+
+> pip install sphinx
+
+Yükleme işlemi başarıyla gerçekleşmiş ise şu komut size sphinx'in versiyonunu verecektir:
+
+> sphinx-build --version

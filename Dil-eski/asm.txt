@@ -1,0 +1,71 @@
+scope 1
+loadname oku
+call 0
+loadname sayı
+call 1
+storename a
+loadconst 0
+loadname a
+cmp >
+jumpnif 34
+scope 1
+loadconst "pozitif"
+loadname yaz
+call 1
+pop
+loadconst 1
+loadname a
+cmp ==
+jumpnif 26
+scope 1
+loadname a
+loadname yaz
+call 1
+pop
+scope -1
+jump 32
+scope 1
+loadconst "1 değil."
+loadname yaz
+call 1
+pop
+scope -1
+scope -1
+jump 70
+scope 1
+loadconst 0
+loadname a
+cmp <
+jumpnif 63
+scope 1
+loadconst "negatif"
+loadname yaz
+call 1
+pop
+loadconst -1
+loadname a
+cmp ==
+jumpnif 55
+scope 1
+loadname a
+loadname yaz
+call 1
+pop
+scope -1
+jump 61
+scope 1
+loadconst "-1 değil."
+loadname yaz
+call 1
+pop
+scope -1
+scope -1
+jump 69
+scope 1
+loadconst "sıfır"
+loadname yaz
+call 1
+pop
+scope -1
+scope -1
+scope -1
